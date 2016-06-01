@@ -108,7 +108,7 @@ public class WeatherDB {
     }
 
     /**
-     * 将City实例存储到数据库
+     * 将County实例存储到数据库
      */
     public void saveCounty(County county) {
         if (county != null) {
@@ -121,7 +121,7 @@ public class WeatherDB {
     }
 
     /**
-     * 从数据库读取某省份下所有市
+     * 从数据库读取某城市下所有区县
      */
     public List<County> loadCounties(int cityId) {
         List<County> list = new ArrayList<>();
