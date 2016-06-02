@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">weather</string>
+    <string name="title_name">省市县</string>
 </resources>
