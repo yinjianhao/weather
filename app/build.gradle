@@ -24,4 +24,5 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.3.0'
     compile 'com.alibaba:fastjson:1.1.52.android'
+    compile files('libs/baidumapapi_base_v3_7_3.jar')
 }
